@@ -1,0 +1,3 @@
+/home/abhishek/Nascent/CountDice/src/CMakeFiles/edit_cache.dir
+/home/abhishek/Nascent/CountDice/src/CMakeFiles/rebuild_cache.dir
+/home/abhishek/Nascent/CountDice/src/CMakeFiles/CountDice.dir
