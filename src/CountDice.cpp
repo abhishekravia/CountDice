@@ -99,7 +99,19 @@ int main(int argc, char** argv){
   sprintf(sumFinal,"Sum: %d",sum);
   putText(final, sumFinal, Point(20,50),FONT_HERSHEY_SIMPLEX, 1, cvScalar(0,255,0), 2, CV_AA);
   imshow("Output Image",final);
+  //sprintf(out,"output_"+argv[1]);
+  // cout<<argv[1][7]<<endl;
+  string str(1,argv[1][7]);
+  // char str = argv[1][7];
+  char out[50];
+  // string out;
+  strcpy(out,"example_output_");
+  // strcat(out,str);
+  strcat(out,".png");
+  // string outfinal = out + argv[1][7] + ".png";
 
+  cout<<out<<endl;
+  imwrite(out,final);
   waitKey(0);
   return 0;
 }
